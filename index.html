@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Grid Dashboard Layout</title>
+    <meta name="description" content="Standalone Grid Dashboard Layout — 6 regions, container-query responsive." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="layout-wrap">
+        <div class="layout" aria-label="Dashboard wireframe">
+            <div class="region region--header">
+                <span class="region__tag">HEADER</span>
+                <span class="sk sk--dot-lg"></span>
+                <span class="sk sk--bar sk--w-40"></span>
+                <span class="sk sk--search"></span>
+                <span class="sk sk--dot-lg"></span>
+            </div>
+
+            <div class="region region--sidebar">
+                <span class="region__tag">SIDEBAR</span>
+                <span class="sk-row"><span class="sk sk--sq"></span><span class="sk sk--bar sk--grow"></span></span>
+                <span class="sk-row"><span class="sk sk--sq"></span><span class="sk sk--bar sk--grow sk--dim"></span></span>
+                <span class="sk-row"><span class="sk sk--sq"></span><span class="sk sk--bar sk--grow sk--dim"></span></span>
+                <span class="sk-row"><span class="sk sk--sq"></span><span class="sk sk--bar sk--grow sk--dim"></span></span>
+                <span class="sk sk--block"></span>
+            </div>
+
+            <div class="region region--main">
+                <span class="region__tag">MAIN</span>
+                <span class="sk-row sk-row--between">
+                    <span class="sk sk--bar sk--w-60"></span>
+                    <span class="sk sk--pill"></span>
+                </span>
+                <span class="sk-grid-4">
+                    <span class="sk sk--card"></span>
+                    <span class="sk sk--card"></span>
+                    <span class="sk sk--card"></span>
+                    <span class="sk sk--card"></span>
+                </span>
+                <span class="sk sk--chart"></span>
+            </div>
+
+            <div class="region region--widget">
+                <span class="region__tag">WIDGET</span>
+                <span class="sk sk--bar sk--w-40"></span>
+                <span class="sk sk--progress"><i style="width:72%"></i></span>
+                <span class="sk sk--progress"><i style="width:41%"></i></span>
+                <span class="sk sk--progress"><i style="width:88%"></i></span>
+            </div>
+
+            <div class="region region--statistics">
+                <span class="region__tag">STATISTICS</span>
+                <span class="sk sk--bar sk--w-40"></span>
+                <span class="sk sk--progress"><i style="width:58%"></i></span>
+                <span class="sk sk--progress"><i style="width:27%"></i></span>
+                <span class="sk sk--progress"><i style="width:11%"></i></span>
+            </div>
+
+            <div class="region region--footer">
+                <span class="region__tag">FOOTER</span>
+                <span class="sk sk--dot"></span>
+                <span class="sk sk--bar sk--w-40"></span>
+                <span class="sk sk--spacer"></span>
+                <span class="sk sk--bar sk--w-50 sk--dim"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
